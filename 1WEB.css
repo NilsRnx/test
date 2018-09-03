@@ -1,0 +1,137 @@
+body{
+	background:#6495ED;
+}
+
+#ensemble{
+	height:950px;
+	width:1500px;
+	background:#DDDDDD;
+	border:3px double #9FC6FF;
+	border-radius:5px;
+	margin: 0 auto;
+}
+
+
+#pieces,#tableau,#imgFinale{
+	float:left;
+	width:450px;
+	height:450px;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+
+table{
+	border-collapse: collapse;
+	margin:75px;
+}
+
+tr{
+	height:100px;
+	border: 1px solid black;
+}
+
+td{
+	width:100px;
+	border: 1px solid black;
+}
+
+#bandeau{
+	height:200px;
+	background-image:url('ruban.png');
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+}
+
+h2{
+	position:absolute;
+
+}
+
+#jeu{
+	height:450px;
+}
+
+#win{
+	position:absolute;
+	background:#DDDDDD;
+	border:3px double red;
+	border-radius:5px;
+	font-size:20px;
+	font-family: "Arial Black";
+	color:red;
+	width:150px;
+	text-align:center;
+	display:none;
+}
+
+
+
+
+
+
+
+
+#score{
+	background:white;
+	border:3px double #9FC6FF;
+	border-radius:5px;
+	width:500px;
+	height:150px;
+	background-image:url('couronne.png');
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	
+}
+
+#titre{
+	position:absolute;
+	transform:rotate(270deg);
+	line-height:120px;
+	white-space:norap;
+}
+
+#classement tr{
+	height:10px;
+}
+
+#classement td{
+	width:75px;
+}
+
+#classement{
+	margin:0;
+}
+
+#tempsclass{
+	text-align:center;
+	width:150px;
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
